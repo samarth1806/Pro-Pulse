@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery - Propulse Sports</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">ProPulse</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#offerings">Menu</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="index.html#order">Place Order</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#reviews">Reviews</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1>Our Product Gallery</h1>
+            <p>Explore our extensive collection of premium sports equipment</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="cricket">Cricket</button>
+                <button class="filter-btn" data-filter="football">Football</button>
+                <button class="filter-btn" data-filter="basketball">Basketball</button>
+                <button class="filter-btn" data-filter="footwear">Footwear</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-container">
+                <!-- Cricket Products -->
+                <div class="gallery-item cricket">
+                    <div class="gallery-image">
+                        <img src="bat.jpg" alt="Premium Cricket Bat">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Premium Cricket Bat</h3>
+                                <p>English Willow, Grade 1</p>
+                                <p class="price">₹7,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item cricket">
+                    <div class="gallery-image">
+                        <img src="bat.jpg" alt="Junior Cricket Bat">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Junior Cricket Bat</h3>
+                                <p>Kashmir Willow, Size 5</p>
+                                <p class="price">₹2,200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item cricket">
+                    <div class="gallery-image">
+                        <img src="ball cricket.jpeg" alt="Cricket Balls Set">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Cricket Balls Set</h3>
+                                <p>Leather, Match Quality (Set of 6)</p>
+                                <p class="price">₹1,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item cricket accessories">
+                    <div class="gallery-image">
+                        <img src="helmet.jpg" alt="Cricket Helmet">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Cricket Helmet</h3>
+                                <p>Titanium Grille, Adjustable</p>
+                                <p class="price">₹3,800</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item cricket accessories">
+                    <div class="gallery-image">
+                        <img src="gloves.jpeg" alt="Batting Gloves">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Batting Gloves</h3>
+                                <p>Premium Leather, Extra Padding</p>
+                                <p class="price">₹1,800</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Football Products -->
+                <div class="gallery-item football">
+                    <div class="gallery-image">
+                        <img src="football-1396740_640.jpg" alt="Match Football">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Match Football</h3>
+                                <p>FIFA Approved, Size 5</p>
+                                <p class="price">₹3,200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item football">
+                    <div class="gallery-image">
+                        <img src="football-1396740_640.jpg" alt="Training Football">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Training Football</h3>
+                                <p>Durable Synthetic, Size 5</p>
+                                <p class="price">₹1,200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item football footwear">
+                    <div class="gallery-image">
+                        <img src="nivia.jpg" alt="Football Boots">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Football Boots</h3>
+                                <p>Professional Grade, Firm Ground</p>
+                                <p class="price">₹5,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item football accessories">
+                    <div class="gallery-image">
+                        <img src="gloves.jpeg" alt="Goalkeeper Gloves">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Goalkeeper Gloves</h3>
+                                <p>Professional, Finger Protection</p>
+                                <p class="price">₹2,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item football accessories">
+                    <div class="gallery-image">
+                        <img src="shin guard.jpeg" alt="Shin Guards">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Shin Guards</h3>
+                                <p>Lightweight, Ankle Protection</p>
+                                <p class="price">₹900</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Basketball Products -->
+                <div class="gallery-item basketball">
+                    <div class="gallery-image">
+                        <img src="basketball.jpg" alt="Indoor Basketball">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Indoor Basketball</h3>
+                                <p>Official Size 7, Composite Leather</p>
+                                <p class="price">₹2,800</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item basketball">
+                    <div class="gallery-image">
+                        <img src="basketball.jpg" alt="Outdoor Basketball">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Outdoor Basketball</h3>
+                                <p>Durable Rubber, Size 7</p>
+                                <p class="price">₹1,200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item basketball footwear">
+                    <div class="gallery-image">
+                        <img src="running shoes.jpeg" alt="Basketball Shoes">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Basketball Shoes</h3>
+                                <p>High-Top, Ankle Support</p>
+                                <p class="price">₹6,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item basketball accessories">
+                    <div class="gallery-image">
+                        <img src="basketball netr.jpg" alt="Basketball Net">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Basketball Net</h3>
+                                <p>Professional, All-Weather</p>
+                                <p class="price">₹600</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footwear Products -->
+                <div class="gallery-item footwear">
+                    <div class="gallery-image">
+                        <img src="running shoes.jpeg" alt="Running Shoes">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Running Shoes</h3>
+                                <p>Lightweight, Cushioned</p>
+                                <p class="price">₹4,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item footwear">
+                    <div class="gallery-image">
+                        <img src="tennis shoes.jpeg" alt="Tennis Shoes">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Tennis Shoes</h3>
+                                <p>Court-Specific, Durable</p>
+                                <p class="price">₹3,800</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item footwear">
+                    <div class="gallery-image">
+                        <img src="running shoes.jpg" alt="Training Shoes">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Training Shoes</h3>
+                                <p>Multi-Sport, Flexible</p>
+                                <p class="price">₹3,200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="gallery-item accessories">
+                    <div class="gallery-image">
+                        <img src="sports bag.jpg" alt="Sports Bag">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Sports Bag</h3>
+                                <p>Large Capacity, Water-Resistant</p>
+                                <p class="price">₹1,800</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item accessories">
+                    <div class="gallery-image">
+                        <img src="sport water bottle.jpeg" alt="Sports Water Bottle">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Sports Water Bottle</h3>
+                                <p>Insulated, 750ml</p>
+                                <p class="price">₹650</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Home -->
+    <section class="back-home">
+        <div class="container">
+            <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>ProPulse</h2>
+                    <p>Fuel Your Passion for Play!</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#offerings">Menu</a></li>
+                        <li><a href="index.html#products">Products</a></li>
+                        <li><a href="index.html#order">Place Order</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Prouluse Sports. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
